@@ -1,0 +1,33 @@
+html, body {
+  font-family: 'Software Tester 7';
+  background: linear-gradient(180deg,white, #FF6600);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+.progress-ring__circle, .progress-ring__circle_meter {
+  transition: 0.35s stroke-dashoffset;
+  /* axis compensation */
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  cursor: pointer;
+}
+
+.time-container{
+  position: fixed;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  margin: 0;
+}
+
+
+
+
